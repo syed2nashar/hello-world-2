@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage("clone code from git"){
             steps{
-                git 'https://github.com/ravdy/hello-world.git'
+                git 'https://github.com/syed2nashar/hello-world-2.git'
             }
         }    
         stage("build code"){
